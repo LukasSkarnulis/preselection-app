@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px
+}
+body,
+html,
+#root {
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+  border: 0.1px solid rgba(213, 254, 255, 0.1);
+}
+.App {
+  text-align: center;
+  width: 100%;
+}
+h1 {
+  font-size: 2rem;
+  font-size: bold;
+  margin-bottom: 1rem;
+}
+input {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
+li {
+  font-size: 1.8rem;
+}
+th {
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 0.5rem 0 0.5rem 0;
+}
+td {
+    font-size: 1.8rem;
+    border-bottom: 1px solid grey;
+}
+.bold {
+  font-weight: bold;
+}
+.wholeTop {
+  display: flex;
+}
+.results {
+  display: inline-block;
+  width: 50%;
+}
+.resultList {
+  display: inline-block;
+  width: 50%;
+}
+.close-top-button {
+  color:rgb(255, 255, 255);
+  background-color: rgb(233, 64, 64);
+  height: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 8rem;
+  font-size: 1.2rem;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.close-top-button:hover {
+  background-color: rgb(198, 64, 64);
+}
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+  li {
+    font-size: 1.5rem;
+  }
+  th {
+    font-size: 1.5rem;
+}
+td {
+    font-size: 1.5rem;
+}
+}

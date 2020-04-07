@@ -1,0 +1,127 @@
+.dancersList {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+.dancersTable{
+    width: 50%;
+}
+.header-buttons {
+    display: inline-flex;
+    margin-top: 1rem;
+}
+.judges-button {
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    height: 5rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.judges-button:hover {
+    background-color: rgb(53, 53, 53);
+}
+.reset-button {
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    height: 5rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.reset-button:hover {
+    background-color: rgb(53, 53, 53);
+}
+.edit-button {
+    color:rgb(255, 255, 255);
+    background-color: rgb(62, 73, 226);
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.edit-button:hover {
+    background-color: rgb(27, 73, 226);
+}
+.delete-button {
+    color:rgb(255, 255, 255);
+    background-color: rgb(233, 64, 64);
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.delete-button:hover {
+    background-color: rgb(198, 64, 64);
+}
+.add-button {
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 134, 18);
+    height: 3rem;
+    margin-bottom: 2rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.add-button:hover {
+    background-color: rgb(0, 180, 45);
+}
+.top4-button {
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 134, 18);
+    height: 3rem;
+    margin-bottom: 2rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.top4-button:hover {
+    background-color: rgb(0, 180, 45);
+}
+.top8-button {
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 134, 18);
+    height: 3rem;
+    margin-bottom: 2rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.top8-button:hover {
+    background-color: rgb(0, 180, 45);
+}
+.top16-button {
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 134, 18);
+    height: 3rem;
+    margin-bottom: 2rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.top16-button:hover {
+    background-color: rgb(0, 180, 45);
+}
+.top32-button {
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 134, 18);
+    height: 3rem;
+    margin-bottom: 2rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.top32-button:hover {
+    background-color: rgb(0, 180, 45);
+}
